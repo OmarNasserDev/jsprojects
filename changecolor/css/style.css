@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.changebtn {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.colorViewer {
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background: #000;
+}
